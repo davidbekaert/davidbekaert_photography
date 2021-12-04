@@ -1,10 +1,31 @@
-<div>
+<style>
+
+  .horizontal-scroll-wrapper {
+  width: 700px;
+  height: 1000px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform:rotate(-90deg) translateY(-700px) translateX(120px);
+  transform-origin: right top;
+  }
+
+.horizontal-scroll-wrapper > div {
+  width: 700px;
+  height: 600px;
+  padding: 80px;
+  transform: rotate(90deg);
+  transform-origin: right top;
+}
+
+</style>
+
+<div class="horizontal-scroll-wrapper squares">
   {{ $path := print "content/" .Page.Dir "images" }}
         {{ $url  := print .Page.URL "images" }}
         {{ range (readDir $path)  }}            
             {{ $src := print $url "/" .Name }}                
-            
-            <image src="{{ $src }}" style="padding: 80px">           
-            
-   {{ end }}
+            <div>
+              <image src="{{ $src }}" style="padding: 80px"/>
+            </div>           
+        {{ end }}
 </div>
