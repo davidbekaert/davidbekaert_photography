@@ -1,0 +1,10 @@
+<div>
+  {{ $path := print "content/" .Page.Dir "images" }}
+        {{ $url  := print .Page.URL "images" }}
+        {{ range (readDir $path)  }}            
+            {{ $src := print $url "/" .Name }}                
+            
+            <image src="{{ $src }}" style="padding: 80px">           
+            
+   {{ end }}
+</div>
