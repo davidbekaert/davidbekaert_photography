@@ -3,9 +3,8 @@ title: Introduction
 type: docs
 ---
 
-# Welcome to my photography site
 
-
+![cover](/img/cover.jpg)
 
 ## Here are some of the projects I am currently working on:
 
