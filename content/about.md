@@ -7,9 +7,9 @@ weight: 50
 
 # About
 
-David is living in Ghent, Belgium. 
+I am living in Ghent, Belgium. 
 
-I am interested in photo projects that focus on the relation of humans with nature, history and the spiritual. 
+I'm interested in photo projects that focus on the relation of humans with nature, history and the spiritual. 
 
 You can contact me via [email](mailto:bloeiend-alumna.0e@icloud.com)
 
