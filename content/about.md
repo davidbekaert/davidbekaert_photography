@@ -13,3 +13,4 @@ I'm interested in photo projects that focus on the relation of humans with natur
 
 You can contact me via [email](mailto:bloeiend-alumna.0e@icloud.com)
 
+![david](/img/david.jpg)
