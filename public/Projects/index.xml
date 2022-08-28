@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on David Bekaert Photography</title>
+    <link>https://davidbekaert.photography/projects/</link>
+    <description>Recent content in Projects on David Bekaert Photography</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://davidbekaert.photography/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mythologies</title>
+      <link>https://davidbekaert.photography/Projects/mythologies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidbekaert.photography/Projects/mythologies/</guid>
+      <description> .horizontal-scroll-wrapper { width: 800px; height: 1080px; overflow-y: auto; overflow-x: hidden; transform:rotate(-90deg) translateY(-800px) translateX(110px); transform-origin: right top; } .horizontal-scroll-wrapper  div { width: 800px; height: 800px; padding: 0px; transform: rotate(90deg); transform-origin: right top; }                                                                                                                                 </description>
+    </item>
+    
+    <item>
+      <title>Making Friends with Crows</title>
+      <link>https://davidbekaert.photography/Projects/mfwc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidbekaert.photography/Projects/mfwc/</guid>
+      <description> .horizontal-scroll-wrapper { width: 800px; height: 1080px; overflow-y: auto; overflow-x: hidden; transform:rotate(-90deg) translateY(-800px) translateX(110px); transform-origin: right top; } .horizontal-scroll-wrapper  div { width: 800px; height: 800px; padding: 0px; transform: rotate(90deg); transform-origin: right top; }                                                             </description>
+    </item>
+    
+    <item>
+      <title>There&#39;s a dreamlike quality to reality...</title>
+      <link>https://davidbekaert.photography/Projects/dreamlike/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://davidbekaert.photography/Projects/dreamlike/</guid>
+      <description> .horizontal-scroll-wrapper { width: 800px; height: 1080px; overflow-y: auto; overflow-x: hidden; transform:rotate(-90deg) translateY(-800px) translateX(110px); transform-origin: right top; } .horizontal-scroll-wrapper  div { width: 800px; height: 800px; padding: 0px; transform: rotate(90deg); transform-origin: right top; }                                                                                                       </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,11 +1,8 @@
 ---
-title: "Dreamlike"
+title: "There's a dreamlike quality to reality..."
 draft: false
-weight: 20
+weight: 30
 ---
 
-
-
 {{< gallery >}}
-
 
