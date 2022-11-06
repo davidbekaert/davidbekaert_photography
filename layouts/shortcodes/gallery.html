@@ -20,12 +20,12 @@
 </style>
 
 <div class="horizontal-scroll-wrapper squares">
-  {{ $path := print "content/" .Page.Dir "images" }}
-        {{ $url  := print .Page.URL "images" }}
-        {{ range (readDir $path)  }}            
-            {{ $src := print $url "/" .Name }}                
-            <div>
-              <image src="{{ $src }}" style="padding: 80px"/>
-            </div>           
-        {{ end }}
+  {{ $path := print "content/" .Page.File.Dir "images" }}
+  {{ $url  := print "images" }}
+    {{ range (readDir $path)  }}            
+        {{ $src := print $url "/" .Name }}                
+        <div>
+          <image src="{{ $src }}" style="padding: 80px"/>
+        </div>           
+    {{ end }}
 </div>
