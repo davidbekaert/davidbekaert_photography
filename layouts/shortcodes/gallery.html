@@ -1,19 +1,18 @@
 <style>
 
-  div.horizontal-scroll-wrapper {
-  background-color: #333;
+  div.scroll-container {
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
   }
 
-div.horizontal-scroll-wrapper img {
+div.scroll-container img {
  padding 10px;
 }
 
 </style>
 
-<div class="horizontal-scroll-wrapper squares">
+<div class="scroll-container">
   {{ $path := print "content/" .Page.File.Dir "images" }}
   {{ $url  := print "images" }}
     {{ range (readDir $path)  }}            
