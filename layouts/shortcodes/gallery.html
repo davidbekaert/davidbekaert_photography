@@ -12,12 +12,12 @@ div.scroll-container img {
 
 </style>
 
-<div >
+<div class="scroll-container">
   {{ $path := print "content/" .Page.File.Dir "images" }}
   {{ $url  := print "images" }}
     {{ range (readDir $path)  }}            
         {{ $src := print $url "/" .Name }}                
-        <div class="scroll-container">
+        <div>
           <image src="{{ $src }}"/>
         </div>           
     {{ end }}
