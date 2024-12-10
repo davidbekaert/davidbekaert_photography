@@ -18,7 +18,7 @@ div.scroll-container img {
     {{ range (readDir $path)  }}            
         {{ $src := print $url "/" .Name }}                
         <div>
-          <image src="{{ $src }}" style="padding: 80px"/>
+          <image src="{{ $src }}"/>
         </div>           
     {{ end }}
 </div>
